@@ -1,0 +1,33 @@
+{
+  "name": "api-microsservicos_aula04",
+  "version": "1.0.0",
+  "description": "Exercicio da aula 04: Postar api basica com as duas rotas propostas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesley871/api-microsservicos_aula04.git"
+  },
+  "nodemonConfig": {
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/wesley871/api-microsservicos_aula04/issues"
+  },
+  "homepage": "https://github.com/wesley871/api-microsservicos_aula04#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "ejs": "^4.0.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
