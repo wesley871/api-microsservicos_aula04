@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+<head>
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Documentação</title>
+    <link rel="stylesheet" href="css/docs.css">
+    <script src="js/docs.js" defer></script>
+</head>
+<body>
+    <h1>Bem vindo a documentação da API</h1>
+    <p>A seguir todas as rotas e os detalhes sobre ela.</p>
+    <ol class="lista-rotas">
+        <hr>
+        <li id="rota-0">
+            <a href="#">/hello</a>
+            <button onclick="hello()">Hello Word</button>
+        </li>
+        <hr>
+        <li id="rota-1">
+            <a href="#">/nome/:name</a>
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Digite aqui" required>
+                <button onclick="testarNome()">Testar</button>
+            </div>
+        </li>
+        <hr>
+    </ol>
+</body>
+</html>

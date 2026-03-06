@@ -1,11 +1,14 @@
 import express from "express";
+import ejs from "ejs";
+import routes from "./src/controllers/router.js";
 
 const app = express();
 
-function documentacao(req, res){
+app.use(express.static("./src/public"));
+app.set("views", "./src/views");
+app.set("view engine", "html");
+app.engine("html", ejs.renderFile);
 
-}
-
-app.get("/", documentacao);
+app.use(routes);
 
 app.listen(3000);

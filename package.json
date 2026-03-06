@@ -12,7 +12,12 @@
     "url": "git+https://github.com/wesley871/api-microsservicos_aula04.git"
   },
   "nodemonConfig": {
-    
+    "watch": [
+      "server.js",
+      "src"
+    ],
+    "ext": "js, json, html, css",
+    "delay": 3000
   },
   "keywords": [],
   "author": "",
